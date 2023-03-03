@@ -11,7 +11,7 @@ pipeline {
           stage('move'){
             steps {
                 echo 'move file '
-                build './newfolder/move_job'
+                //build './newfolder/move_job'
             }
         }
     }  
