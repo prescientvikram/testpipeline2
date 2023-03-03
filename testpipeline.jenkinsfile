@@ -8,13 +8,11 @@ pipeline {
                 build './newfolder/helloword'
             }
         }
-    }
-        stages {
-        stage('move'){
+          stage('move'){
             steps {
                 echo 'move file '
                 build './newfolder/move_job'
             }
         }
-    }
+    }  
 }
