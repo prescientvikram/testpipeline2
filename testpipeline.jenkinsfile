@@ -5,13 +5,13 @@ pipeline {
         stage('Hello'){
             steps {
                 echo 'Hello World'
-                //build './newfolder/helloword'
+                build './newfolder/helloword'
             }
         }
           stage('move'){
             steps {
                 echo 'move file '
-                //build './newfolder/move_job'
+                build './newfolder/move_job'
             }
         }
     }  
